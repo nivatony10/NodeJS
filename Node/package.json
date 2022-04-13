@@ -1,0 +1,27 @@
+{
+  "name": "index.js",
+  "version": "1.0.0",
+  "description": "dockerapi",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.3",
+    "moesif-nodejs": "^3.1.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nivatony10/NodeJS.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Nivel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nivatony10/NodeJS/issues"
+  },
+  "homepage": "https://github.com/nivatony10/NodeJS#readme"
+}
