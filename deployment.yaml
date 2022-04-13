@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dockerapi
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: index.js
+    spec:
+      containers:
+      - name: nivelnode
+        image: nivatony10/nodejsrepo:latest
+        ports:
+        - containerPort: 8080
